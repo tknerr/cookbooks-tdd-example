@@ -8,6 +8,7 @@ Vagrant::Config.run do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = [ ".." ]
+    chef.add_recipe "minitest-handler"
     chef.add_recipe "tdd-example::default"
   end
 end
