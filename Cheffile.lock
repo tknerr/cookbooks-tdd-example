@@ -1,0 +1,10 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    chef_handler (1.0.6)
+    minitest-handler (0.1.0)
+      chef_handler (>= 0.0.0)
+
+DEPENDENCIES
+  minitest-handler (= 0.1.0)
+
