@@ -1,2 +1,4 @@
 # ignore these guys
 .vagrant
+cookbooks/
+tmp/
