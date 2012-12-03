@@ -1,4 +1,3 @@
-require 'faster_require'
 require 'chefspec'
 require 'fauxhai'
 
